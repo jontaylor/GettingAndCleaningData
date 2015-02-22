@@ -12,6 +12,6 @@ The script performs the following transformations on the data.
 2. Combines the test data and the training data sets.
 3. Labels the data set using the features.txt file
 4. Replaces the activity ids with their text equivalent
-5. Filters the columns down to those containing the text "mean", "std", but also retains the subject and activity id columns.
+5. Filters the columns down to those containing the text "mean", "std", but also retains the subject and activity id columns. I have chose to replace the dashes with underscores to make the valid R variable names.
 6. Creates a tidy data set by aggregating subject and activity and generating a mean of the other columns.
 7. Writes output to a file named tidy_set.txt
